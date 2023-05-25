@@ -4,19 +4,11 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ## Table of contents
 
-- [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Overview
 
 ### The challenge
 
@@ -28,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solução](https://www.frontendmentor.io/solutions/resumo-de-resultados-ZP9IUA2pqp)
+- Live Site URL: [site](https://coffeemaker-e.github.io/Results-summary/)
 
 ### Built with
 
@@ -39,7 +31,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=wEujWuPQU0U&t=1809s) - me ajudou muito a entender, principalmente a indentação e estilização do sumario.
+- [resource 1](https://www.youtube.com/watch?v=wEujWuPQU0U&t=1809s) - me ajudou muito a entender, principalmente a indentação e estilização do sumario.
 
 
 ## Author
