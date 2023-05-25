@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Poppins:wght@100;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 5px 10px 20px 2px rgb(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.fBlock {
+    color: #fff;
+    padding: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(0deg, hsl(241, 81%, 54%) 32%, hsl(252, 100%, 67%) 100%);
+    border-radius: 20px;
+}h2 {
+    padding: 20px;
+    color: hsl(241, 100%, 89%);
+}
+
+.bola {
+    padding: 50px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, hsla(241, 72%, 46%, 0) 0%, hsla(256, 72%, 46%, 1) 100%);
+    border-radius: 100%;
+}
+.Bnúm {
+    font-weight: bold;
+    font-size: 60px;
+}.Snúm {
+    color: hsl(241, 100%, 89%);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}h3 {
+    color: #fff;
+    padding: 25px;
+    font-size: 25px;
+}
+.sBlock {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}h4 {
+    padding: 10px;
+    font-size: 20px;
+}
+.score {
+    font-size: 18px;
+}.score img {
+    padding: 5px;
+}.icon-reaction {
+    display: flex;
+    align-items: center;
+}.icon-memory {
+    display: flex;
+    align-items: center;
+}.icon-verbal {
+    display: flex;
+    align-items: center;
+}.icon-visual {
+    display: flex;
+    align-items: center;
+}
+.reaction {
+    border-radius: 10px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+}.memory {
+    border-radius: 10px;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+}.verbal {
+    border-radius: 10px;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+}.visual {
+    border-radius: 10px;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+}
+.letter1 {
+    color: hsl(0, 100%, 67%);
+}.letter2 {
+    color: hsl(39, 100%, 56%);
+}.letter3 {
+    color: hsl(166, 100%, 37%);
+}.letter4 {
+    color: hsl(234, 85%, 45%);
+}.pontuacao {
+    align-self: center;
+    font-weight: bold;
+    color: #222;
+}
+.de {
+    color: rgba(87, 87, 87, 0.992);
+}button {
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: none;
+    color: #fff;
+    outline: none;
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    border-radius: 25px;
+}
+@media (max-width: 760px) {
+    .fBlock {
+        padding: 0px;
+        width: 100%;
+        border-radius: 0%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        border-radius: 0px;
+        overflow: hidden;
+        padding: 0;
+        box-shadow: none;
+    }
+    .sBlock {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .p {
+        padding: 0;
+        text-align: center;
+    }
+}
